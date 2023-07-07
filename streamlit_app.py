@@ -18,8 +18,8 @@ geolocator = Nominatim(user_agent=sl.secrets["user_agent"])
 # Choose which app to run
 #selected_app = sl.selectbox("Choose the application to run", ["Personas", "PoL"])
 #master_styles = ["Nikon D810", "generated in the style of photorealism, Sigma 85 mm f/1.4",
-                 "in the style of vector artwork", "in the style of flat art", "generated in a vintage style",
-                 "in the style of Banksy", "in the style of Roy Lichtenstein"]
+#                 "in the style of vector artwork", "in the style of flat art", "generated in a vintage style",
+#                 "in the style of Banksy", "in the style of Roy Lichtenstein"]
 #styles = sl.sidebar.multiselect("Pick acceptable image styles", master_styles)
 
 
