@@ -796,6 +796,9 @@ def persona_generator():
 #   HERE GOES!
 ######################################
 
+password = sl.secrets["password"]
+if password != sl.text_input("Enter password"): exit(600)
+
 image_prompt = sl.text_input("Enter image prompt")
 image_url = generate_dalle_image2(image_prompt)
 sl.image(image_url)
